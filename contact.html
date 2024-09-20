@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Contact - Clothing Addict</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-----Header Section----->
+    <div class="container">
+   <div class="navbar">
+    <div class="logo">
+        <img src="images/logo.png" alt="Logo" width="100px">
+        
+    </div>
+    <nav>
+        <ul id="MenuItems">
+          <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+    </nav>
+    <a href="cart.html"><img src="images/cart.png" width="25px" height="25px"></a>
+    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+   </div>
+</div>
+
+  
+<!-------------account-page-------------------->
+<div class="account-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+        <img src="images/image1.png" width="100%">
+      </div>
+      <div class="col-2">
+        
+        
+        <div class="section">
+            <div class="container">
+                <h1>Contact Us</h1>
+        
+                <div class="section">
+                    <h2>Get in Touch</h2>
+                    <p>If you have any questions, comments, or need assistance, feel free to reach out to us. We’re here to help!</p>
+                    <br>
+                </div>
+        
+                <div class="section contact-info">
+                    <h2>Our Contact Information</h2>
+                    <p><strong>Email:</strong> support@clothingaddict.com</p>
+                    <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                    <p><strong>Address:</strong> 123 Fashion Street, Trendy City, TC 12345</p>
+                    <br>
+                </div>
+        
+                <div class="section">
+                    <h2>Send Us a Message</h2>
+                    <form class="contact-form" action="submit_form.php" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+        
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" cols="40"></textarea>
+        
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                    <br>
+                </div>
+            </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-----------------Footer------------------>
+<div class="footer">
+  <div class="small-container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download Our App</h3>
+        <p>Get the App for Android and iOS available for download now!</p>
+        <div class="app-logo">
+          <img src="images/play-store.png" alt="">
+          <img src="images/app-store.png" alt="">
+        </div>
+      </div>
+      <div class="footer-col-2">
+        <img src="images/logo.png" alt="">
+        <p>Style that Inspires,
+          Quality that Lasts!</p>
+      </div>
+      <div class="footer-col-3">
+        <h3>Usefil Links</h3>
+        <ul>
+          <li>Coupons</li>
+          <li>Blog Post</li>
+          <li>Return Policy</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+      <div class="footer-col-4">
+        <h3>Follow us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>WhatsApp</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="Copyright">Copyright 2024 - Isuru Dilshan</p>
+  </div>
+</div>
+
+</body>
+</html>
